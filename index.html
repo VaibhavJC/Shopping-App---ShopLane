@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <link rel="stylesheet" href="./index.css"> 
+    <link href="./product.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+     <div id="topbar" >
+        <div id="left-menu">
+            <div id="logo">
+
+            </div>
+        </div>
+
+        <!-- search input -->
+        <div id="search-wrapper">
+            <div id="search-box">
+            
+            </div>
+        </div>
+
+        <!-- Right Menu -->
+        <div id="right-menu">
+            <div id="cart-wrapper">
+                <span id = "count"></span>
+            </div>
+        </div>
+ 
+     </div>
+
+    <div id="main-content">
+    
+        <section class="carousel-container">
+            <!-- Slide bar start here -->
+            <div class="slider">
+                <div class="slides">
+                    <!--Radio Buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--Radio Buttons end-->
+
+                    <!--Slide images start here-->
+                    <div class="slide first">
+                        <img src="https://shoplane.netlify.app/img/img1.png" >
+                    </div>
+                    <div class="slide">
+                        <img src="https://shoplane.netlify.app/img/img2.png" >
+                    </div>
+                    <div class="slide">
+                        <img src="https://shoplane.netlify.app/img/img3.png" >
+                    </div>
+                    <div class="slide">
+                        <img src="https://shoplane.netlify.app/img/img4.png" >
+                    </div>
+                    <!--Slide images end-->
+                    <!--Automatic Navigation Start here-->
+                    <div class="auto-navigation">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--Automatic Navigation end here-->
+                </div>
+                <!--Manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--Manual navigation end-->
+            </div>
+            <!-- Slide bar ends here-->
+            
+        </section>
+
+        <section>
+            <main id="main">
+                <div id="main-container">
+                    <div id="Clothing">
+                        <h2>Clothing for Men and Women</h2>
+                        <div id="ClothingCards">
+                            
+                        </div>
+                    </div>
+                    <div id="Accessories">
+                        <h2>Accessories for Men and Women</h2>
+                        <div id="AccessoriesCards">
+                        </div>
+                    </div>
+                </div>
+            </main>            
+        </section>
+    </div>
+    <footer>
+        <div>
+            <p class="footer-heading">Online Store</p>
+            <a href="./index.html#Clothing" class="footer-link">Mens Clothing</a>
+            <a href="./index.html#Clothing" class="footer-link">Women Clothing</a>
+            <a href="./index.html#Accessories" class="footer-link">Mens Accessories</a>
+            <a href="./index.html#Accessories" class="footer-link">Women Accessories</a>
+        </div>
+
+        <div>
+            <p class="footer-heading">Helpful Links</p>
+            <a href="./index.html" class="footer-link">Home</a>
+            <a href="./index.html" class="footer-link">About</a>
+            <a href="./index.html" class="footer-link">Contact</a>
+        </div>
+
+        <div>
+            <p class="footer-heading">Partners</p>
+            <a href="./index.html" class="footer-link">Zara</a>
+            <a href="./index.html" class="footer-link">Pantaloons</a>
+            <a href="./index.html" class="footer-link">Levis</a>
+            <a href="./index.html" class="footer-link">Ucb</a>
+            <a href="./index.html" class="footer-link">+ many more</a>
+        </div>
+
+        <div>
+            <p class="footer-heading">Address</p>
+            <a href="./index.html" class="footer-link">Building 101</a>
+            <a href="./index.html" class="footer-link">Central Avenue</a>
+            <a href="./index.html" class="footer-link">LA - 902722</a>
+            <a href="./index.html" class="footer-link">United States</a>
+        </div>
+
+        <div>
+            <p class="footer-heading">Play For Fun</p>
+            <a href="https://sharemygame.com/@VaibhavJC" class="footer-link"> Games</a>
+        </div>
+
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
